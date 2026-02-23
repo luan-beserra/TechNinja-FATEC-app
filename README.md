@@ -1,5 +1,4 @@
-# Fatec - Centro Paula Souza
-## TechNinja - Projeto Integrador 5º Semestre FATEC Luigi Papaiz
+## TechNinja - Projeto Integrador
 ### Descrição
 Sistema que visa oferecer uma plataforma educacional interativa para usuários interessados em aprender programação através de quizzes.
 
@@ -8,11 +7,16 @@ Sistema que visa oferecer uma plataforma educacional interativa para usuários i
   
 </div>
 
-### Time de Desenvolvimento
-- [Julia Ayumi](https://github.com/JuliaAyumi)
-- [Luan Beserra](https://github.com/luan-beserra)
-- [Matheus Duarte](https://github.com/matheusduartedevs)
-- [Pedro Henrique](https://github.com/PedroHHCarvalho)
+## Sobre este fork
+
+Este repositório é um fork do projeto integrador desenvolvido em grupo ao longo da graduação de Desenvolvimento de Software Multiplataforma na FATEC Diadema.
+
+Link para repositório original: https://github.com/matheusduartedevs/TechNinja-FATEC-app
+
+Participei do desenvolvimento do projeto como colaborador, contribuindo com o **desenvolvimento da parte visual e processamento lógico das telas**
+
+Este fork é mantido como parte do meu portfólio pessoal.
+
 
 ## Metas
 - Reunir materiais educativos em um único ambiente.
@@ -50,53 +54,6 @@ Sistema que visa oferecer uma plataforma educacional interativa para usuários i
 
 ## Definição de Pronto
 A sprint será considerado concluído quando:
-1. Todas as entregas de cada membro devem ser revisadas pela equipe;
-2. As entregas de código devem estar de acordo com os padrões de aceitação definidos pela equipe e ser plenamente executáveis;
+1. Todas as entregas de cada membro forem revisadas pela equipe;
+2. As entregas de código estiverem de acordo com os padrões de aceitação definidos pela equipe e forem plenamente executáveis;
 3. Após a aprovação do código, ele deve ser armazenado no GitHub.
-
-## Fluxo de Trabalho
-
-### Branches principal:
-- main: Sempre contém o código pronto para produção
-
-### Como contribuir:
-1. Atualize sua branch main
-   ```bash
-     git pull origin main
-   ```
-2. Crie uma branch para sua feature
-   ```bash
-     git checkout -b nome-da-feature
-   ```
-3. Implemente sua feature e faça commits organizados
-   ```bash
-     git add .
-     git commit -m "Descrição clara da mudança"
-   ```
-4. Envie as alterações para o repositório remoto (commit inicial)
-   ```bash
-    git push -u origin nome-da-feature
-   ```
-5. Crie um Pull Request (PR) no GitHub para main
-6. Após aprovação, faça o merge na main
-
-## Instalação
-Clone o repositório
-```bash
-  git clone [link_desse_repo]
-```
-
-Instale o projeto
-```bash
-  npm install
-```
-
-Crie o arquivo .env e adicione as variáveis de ambiente
-```bash
-  cp .env.sample .env
-```
-
-Execute o projeto e escolha a plataforma desejada (Android, iOS ou Web)
-```bash
-  npx expo
-```
